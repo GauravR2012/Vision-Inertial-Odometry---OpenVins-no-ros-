@@ -39,6 +39,12 @@ The estimator tracked a 296.69 m trajectory with a relative error of only **0.05
 
 > 📊 Interactive 3D visualization available in [`results/openvins_trajectory.html`](results/openvins_trajectory.html)
 
+## Trajectory Visualization
+
+| Estimated Trajectory | Ground Truth |
+|---------------------|--------------|
+| ![Estimated Trajectory](results/trajectory.png) | ![Ground Truth](results/groundtruth.png) |
+
 ---
 
 ## How It Works
