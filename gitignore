@@ -1,0 +1,20 @@
+# OpenVINS source (cloned by setup.sh — not committed)
+open_vins/
+
+# Dataset
+*.tar
+dataset-corridor1_512_16/
+
+# Build artifacts
+*.o
+*.a
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

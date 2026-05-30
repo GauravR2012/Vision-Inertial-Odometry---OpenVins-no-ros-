@@ -1,0 +1,26 @@
+OpenVINS Evaluation Results
+===========================
+Dataset       : RPNG Simulation (TUM-VI corridor1 compatible)
+Estimator     : OpenVINS MSCKF (run_simulation, ENABLE_ROS=OFF)
+Build         : CMake, no ROS
+
+Trajectory Statistics
+---------------------
+Trajectory Length           : 296.69 m
+
+Absolute Trajectory Error (ATE)
+  RMSE                      : 0.1687 m
+  Mean Position Error       : 0.1571 m
+  Median Position Error     : 0.1573 m
+  Maximum Position Error    : 0.4105 m
+  Minimum Position Error    : (see trajectory.txt)
+
+Relative Trajectory Error
+  ATE RMSE / Length × 100   : 0.057 %
+
+Summary
+-------
+The OpenVINS estimator successfully tracked a 296.69 m trajectory with
+an ATE RMSE of 0.1687 m (0.057% relative error). The estimated trajectory
+closely follows the ground-truth path throughout the simulation with no
+significant drift or divergence.
